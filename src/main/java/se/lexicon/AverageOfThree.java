@@ -18,5 +18,7 @@ public class AverageOfThree {
         double average = (double) (firstNumber + secondNumber + thirdNumber) / 3;
 
         System.out.println("Average " + average);
+
+        input.close();
     }
 }
