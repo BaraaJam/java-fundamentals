@@ -16,5 +16,7 @@ public class WeekdayOrWeekend {
             case "Saturday", "Sunday" -> System.out.println("It's a weekend!");
             default -> System.out.println("Unknown day.");
         }
+
+        input.close();
     }
 }
