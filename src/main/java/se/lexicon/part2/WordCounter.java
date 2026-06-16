@@ -43,6 +43,8 @@ public class WordCounter {
 
         System.out.println("Total words : " + words.size());
         System.out.println("\"" + wordToFind + "\" appears: " + matchCount + " times");
+
+        input.close();
     }
 
 }
