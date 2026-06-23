@@ -8,12 +8,11 @@ public class WordFrequency {
 
         HashMap<String, Integer> wordCounts  = new HashMap<>();
 
-        for (int i = 0; i < words.length; i++) {
-            String currentWord = words[i];
+        for (String currentWord : words) {
             int matchCount = 0;
 
-            for (String word : words){
-                if (word.equals(currentWord)){
+            for (String word : words) {
+                if (word.equals(currentWord)) {
                     matchCount++;
                 }
 
